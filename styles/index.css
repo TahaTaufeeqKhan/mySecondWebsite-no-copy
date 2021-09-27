@@ -1,0 +1,72 @@
+@font-face {
+  font-family: THICCCBOI;
+  src: url("/TTF/THICCCBOI-Black.ttf");
+}
+
+body {
+  font-family: THICCCBOI;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header .header-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav .menu-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  margin-right: 70px;
+}
+
+header nav .menu-flex li {
+  margin-left: 30px;
+}
+
+header nav .menu-flex-II {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+header nav li {
+  padding-left: 30px;
+}
+/*# sourceMappingURL=index.css.map */

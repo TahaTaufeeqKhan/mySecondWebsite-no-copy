@@ -1,0 +1,49 @@
+@font-face {
+  font-family: THICCCBOI;
+  src: url('/TTF/THICCCBOI-Black.ttf');
+}
+
+body{
+  font-family: THICCCBOI;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .header-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav {
+    margin-top: 10px;
+    .menu-flex {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      
+      margin-right: 70px;
+      li {
+        margin-left: 30px;
+      }
+    }
+    .menu-flex-II {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      margin-left: 30px;
+    }
+    li {
+      padding-left: 30px;
+    }
+  }
+}
