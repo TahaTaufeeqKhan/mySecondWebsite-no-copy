@@ -1,11 +1,13 @@
 html {
   font-size: 10px;
+  margin: 0px;
+  padding: 0px;
 }
 h1 {
   font-size: 5rem;
   line-height: 1.15;
   color: #343f52;
-  
+}
 p {
   font-size: 2.2rem;
   color: #60697b;
@@ -13,12 +15,10 @@ p {
 }
 @font-face {
   font-family: THICCCBOI;
-  src: url("/TTF/THICCCBOI-Bold.ttf"),url("/TTF/THICCCBOI-Medium.ttf") ;
+  src: url("/TTF/THICCCBOI-Bold.ttf"), url("/TTF/THICCCBOI-Medium.ttf");
 }
 
-.material-icons-outlined {
-  color: #343f52;
-}
+
 
 body {
   font-family: THICCCBOI;
@@ -46,10 +46,10 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2.2rem;
+    
   }
   nav {
-    margin-top: 1rem;
+    
     .menu-flex {
       display: flex;
       flex-direction: row;
@@ -65,6 +65,10 @@ header {
       flex-direction: row;
       list-style-type: none;
       margin-left: 3rem;
+      .material-icons-outlined{
+        color: #343f52;
+        font-size: 2.2rem;
+      }
     }
     li {
       padding-left: 3rem;
@@ -79,17 +83,32 @@ section {
     justify-content: center;
     align-items: center;
     margin-top: 8rem;
+    img {
+      width: 700px;
+    }
   }
 
   .text-sec_1 {
-    padding-left: 3rem;
-  }
-  img{
-    width: 700px;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    h1 {
+      margin-bottom: 2.5rem;
+    }
+    p {
+      margin-bottom: 3.5rem;
+    }
   }
 
-  button{
-    color: #FFFFFF;
+  button {
+    font-family: THICCCBOI;
+    color: #ffffff;
     background-color: #fab758;
+    border-style: none;
+    padding: 1.58rem 2.5rem;
+    font-size: 1.7rem;
+    border-radius: 100rem;
+    
   }
 }

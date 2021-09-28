@@ -1,12 +1,13 @@
 html {
   font-size: 10px;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
   font-size: 5rem;
   line-height: 1.15;
   color: #343f52;
-  font-weight: bolder;
 }
 
 p {
@@ -17,11 +18,7 @@ p {
 
 @font-face {
   font-family: THICCCBOI;
-  src: url("/TTF/THICCCBOI-Bold.ttf"), url("/TTF/THICCCBOI-Regular.ttf");
-}
-
-.material-icons-outlined {
-  color: #343f52;
+  src: url("/TTF/THICCCBOI-Bold.ttf"), url("/TTF/THICCCBOI-Medium.ttf");
 }
 
 body {
@@ -62,11 +59,6 @@ header .header-flex {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 2.2rem;
-}
-
-header nav {
-  margin-top: 1rem;
 }
 
 header nav .menu-flex {
@@ -97,6 +89,11 @@ header nav .menu-flex-II {
   margin-left: 3rem;
 }
 
+header nav .menu-flex-II .material-icons-outlined {
+  color: #343f52;
+  font-size: 2.2rem;
+}
+
 header nav li {
   padding-left: 3rem;
 }
@@ -118,16 +115,32 @@ section .flex-sec_1 {
   margin-top: 8rem;
 }
 
-section .text-sec_1 {
-  padding-left: 3rem;
-}
-
-section img {
+section .flex-sec_1 img {
   width: 700px;
 }
 
+section .text-sec_1 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+}
+
+section .text-sec_1 h1 {
+  margin-bottom: 2.5rem;
+}
+
+section .text-sec_1 p {
+  margin-bottom: 3.5rem;
+}
+
 section button {
-  color: #FFFFFF;
+  font-family: THICCCBOI;
+  color: #ffffff;
   background-color: #fab758;
+  border-style: none;
+  padding: 1.58rem 2.5rem;
+  font-size: 1.7rem;
+  border-radius: 100rem;
 }
 /*# sourceMappingURL=index.css.map */
