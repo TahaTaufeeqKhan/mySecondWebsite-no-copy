@@ -1,10 +1,32 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1.15;
+  color: #343f52;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 2.2rem;
+  color: #60697b;
+  line-height: 3.2rem;
+}
+
 @font-face {
   font-family: THICCCBOI;
-  src: url("/TTF/THICCCBOI-Black.ttf");
+  src: url("/TTF/THICCCBOI-Bold.ttf"), url("/TTF/THICCCBOI-Regular.ttf");
+}
+
+.material-icons-outlined {
+  color: #343f52;
 }
 
 body {
   font-family: THICCCBOI;
+  font-size: 1.7rem;
 }
 
 .container {
@@ -15,7 +37,15 @@ body {
 
 header a {
   text-decoration: none;
-  color: black;
+  color: #343f52;
+}
+
+header a:hover {
+  color: #fab758;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
 }
 
 header .header-flex {
@@ -32,10 +62,11 @@ header .header-flex {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 2.2rem;
 }
 
 header nav {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 header nav .menu-flex {
@@ -47,11 +78,11 @@ header nav .menu-flex {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style-type: none;
-  margin-right: 70px;
+  margin-right: 7rem;
 }
 
 header nav .menu-flex li {
-  margin-left: 30px;
+  margin-left: 3rem;
 }
 
 header nav .menu-flex-II {
@@ -63,10 +94,40 @@ header nav .menu-flex-II {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style-type: none;
-  margin-left: 30px;
+  margin-left: 3rem;
 }
 
 header nav li {
-  padding-left: 30px;
+  padding-left: 3rem;
+}
+
+section .flex-sec_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 8rem;
+}
+
+section .text-sec_1 {
+  padding-left: 3rem;
+}
+
+section img {
+  width: 700px;
+}
+
+section button {
+  color: #FFFFFF;
+  background-color: #fab758;
 }
 /*# sourceMappingURL=index.css.map */

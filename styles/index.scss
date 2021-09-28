@@ -1,10 +1,28 @@
+html {
+  font-size: 10px;
+}
+h1 {
+  font-size: 5rem;
+  line-height: 1.15;
+  color: #343f52;
+  
+p {
+  font-size: 2.2rem;
+  color: #60697b;
+  line-height: 3.2rem;
+}
 @font-face {
   font-family: THICCCBOI;
-  src: url('/TTF/THICCCBOI-Black.ttf');
+  src: url("/TTF/THICCCBOI-Bold.ttf"),url("/TTF/THICCCBOI-Medium.ttf") ;
 }
 
-body{
+.material-icons-outlined {
+  color: #343f52;
+}
+
+body {
   font-family: THICCCBOI;
+  font-size: 1.7rem;
 }
 
 .container {
@@ -14,36 +32,64 @@ body{
 }
 
 header {
-  a{
+  a {
     text-decoration: none;
-    color: black;
+    color: #343f52;
+  }
+  a:hover {
+    color: #fab758;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
   }
   .header-flex {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-top: 2.2rem;
   }
   nav {
-    margin-top: 10px;
+    margin-top: 1rem;
     .menu-flex {
       display: flex;
       flex-direction: row;
       list-style-type: none;
-      
-      margin-right: 70px;
+
+      margin-right: 7rem;
       li {
-        margin-left: 30px;
+        margin-left: 3rem;
       }
     }
     .menu-flex-II {
       display: flex;
       flex-direction: row;
       list-style-type: none;
-      margin-left: 30px;
+      margin-left: 3rem;
     }
     li {
-      padding-left: 30px;
+      padding-left: 3rem;
     }
+  }
+}
+
+section {
+  .flex-sec_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+  }
+
+  .text-sec_1 {
+    padding-left: 3rem;
+  }
+  img{
+    width: 700px;
+  }
+
+  button{
+    color: #FFFFFF;
+    background-color: #fab758;
   }
 }
