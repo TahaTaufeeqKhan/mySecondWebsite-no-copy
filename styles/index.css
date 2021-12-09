@@ -33,6 +33,7 @@ p {
 }
 
 body {
+  margin: 0%;
   font-family: THICCCBOI;
   font-size: 1.7rem;
 }
@@ -117,6 +118,11 @@ header nav .menu-flex-II .material-icons-outlined {
 
 header nav li {
   padding-left: 3rem;
+}
+
+.wrapper {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff8ef), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, #fff8ef, rgba(255, 255, 255, 0) 100%);
 }
 
 section .flex-sec_1 {
@@ -228,7 +234,13 @@ section .sec_2 .services-flex .box_4 a {
 }
 
 section .sec_2 .service-box {
+  text-align: center;
   padding: 40px;
+}
+
+section .sec_2 .service-box img {
+  height: 51px;
+  width: 51px;
 }
 
 section .sec_2 .service-box h4 {
@@ -237,18 +249,7 @@ section .sec_2 .service-box h4 {
 }
 
 section .sec_2 .service-box a {
-  margin-left: 74px;
   text-decoration: none;
-}
-
-section .sec_2 .service-box .flex-arrow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 section .flex-sec_3 {
